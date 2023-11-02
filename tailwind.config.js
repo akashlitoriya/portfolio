@@ -11,6 +11,7 @@ module.exports = {
         "mont": ['Montserrat', 'sans-serif'],
         "robo": ['Roboto', 'sans-serif'],
         mono: ["Roboto Mono", "monospace"],
+        inter: ["Inter", "sans-serif"],
       },
       colors: {
         primary: "#222222",

@@ -1,20 +1,20 @@
 export const project = [
     {
         title: "StudyNotion",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid",
-        thumbnail: "../assets/StudyNotion.png",
+        description: "StudyNotion is a robust LMS platform, powered by the MERN stack, offering an intuitive and efficient e-learning experience.",
+        thumbnail: "https://res.cloudinary.com/dvu9lo8mq/image/upload/v1698955542/Portfolio/xldpel4crv3ylkl3xumo.png",
         link: "https://study-notion-akash-litoriya.vercel.app/"
     },
     {
         title: "FoodVilla",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid",
-        thumbnail: "../assets/FoodVilla.png",
+        description: "A sleek ReactJS and TailwindCSS powered front-end app for seamless food ordering, offering a delightful user experience.",
+        thumbnail: "https://res.cloudinary.com/dvu9lo8mq/image/upload/v1698955465/Portfolio/ijpkhztkvz2lbpi5gxte.png",
         link: "https://foodvillaakash.netlify.app/"
     },
     {
         title: "Utero",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid",
-        thumbnail: "../assets/Utero.png",
-        link: "https://foodvillaakash.netlify.app/"
+        description: "A sleek, responsive static website for online shopping, meticulously crafted with HTML, CSS, and JavaScript for a seamless user experience.",
+        thumbnail: "https://res.cloudinary.com/dvu9lo8mq/image/upload/v1698955635/Portfolio/iqzrs3fc6kdomhpjq6yp.png",
+        link: "https://akashlitoriya.github.io/ShoppingWebsite.github.io/"
     }
 ]

@@ -8,10 +8,10 @@ const ProjectCard = ({
 }) => {
   return (
     <a href={link} target='_blank' rel='noreferrer'>
-        <div className='p-4 pb-6 rounded-xl bg-richgray-700 flex flex-col gap-2'>
-            <img src={thumbnail} alt={title} className='w-full h-[220px] bg-slate-600'/>
-            <h1 className='font-medium text-2xl text-secondary-50'>{title}</h1>
-            <p className='font-medium text-lg text-secondary-50 opacity-80'>{description}</p>
+        <div className='group p-4 pb-6 rounded-xl bg-richgray-700 flex flex-col gap-2 hover:scale-95 transition-all duration-200'>
+            <img src={thumbnail} alt={title} className='w-full h-[220px] bg-slate-600 opacity-60 group-hover:opacity-100 transition-all duration-200'/>
+            <h1 className='font-semibold font-inter text-xl md:text-3xl text-secondary-50'>{title}</h1>
+            <p className='font-normal text-sm md:text-base text-secondary-50 opacity-80 font-inter line-clamp-3'>{description}</p>
         </div>
     </a>
   )
