@@ -7,7 +7,7 @@ import HighlightText from './HighlightText'
 
 const SkillSection = () => {
   return (
-    <div className='min-w-full w-full h-fit sm:h-96 bg-primary'>
+    <div className='min-w-full w-full h-fit sm:h-96 bg-primary pt-8'>
         <div className='max-w-maxContent h-full bgVector w-full flex flex-col justify-center items-center mx-auto p-6'>
             <div className='flex flex-col gap-5 w-full'>
                 <h1 className='block sm:hidden font-robo text-2xl font-semibold text-secondary-50'>Skills</h1>
