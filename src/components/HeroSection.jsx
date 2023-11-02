@@ -7,7 +7,7 @@ const HeroSection = () => {
     <div className='min-h-full h-full min-w-full bgGrid opacity-100 p-6'>
         <div className='md:min-w-max min-h-full flex flex-col justify-center md:items-center gap-8 md:gap-5'>
             <h1 className='font-semibold text-6xl md:text-8xl text-secondary-50 uppercase md:text-center'>Akash Litoriya</h1>
-            <div className='block w-[390px] text-sm md:text-3xl
+            <div className='block w-[390px] text-xl md:text-3xl
              font-semibold text-secondary-50'>
                 <TypeAnimation
                     preRenderFirstString={true}
