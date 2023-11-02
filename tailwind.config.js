@@ -13,15 +13,19 @@ module.exports = {
         mono: ["Roboto Mono", "monospace"],
       },
       colors: {
+        primary: "#222222",
         richgray: {
           800: "#2B2A2A",
           700: "#2B2A2A",
+          100: "#999999"
         },
         richblue: "#699BF7",
+
         secondary: {
           50: "#FFFFFF",
 
         }
+
       }
     },
   },
