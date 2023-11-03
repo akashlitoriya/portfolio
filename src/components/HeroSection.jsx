@@ -25,7 +25,7 @@ const HeroSection = () => {
             <p className='max-w-[630px] w-10/12 sm:w-4/6 text-sm text-justify md:text-center text-secondary-50 md:text-2xl font-robo'>who's all about that <HighlightText text={"MERN"} /> stack life. I've been busy crafting web projects of all kinds. Wanna peek at my <HighlightText text={"resume"}/>? Hit that button below, or just shoot me a quick 'hi'!<br></br> Let's <HighlightText text={"connect"}/> and create something awesome together!</p>
             <div className='flex flex-row gap-3 w-full justify-between md:justify-normal md:w-fit md:gap-12'>
                 <button className='px-5 md:px-5 py-2 text-richblue rounded-full uppercase font-medium border-[3px] border-richblue text-base md:text-xl md:min-w-[188px]'>Resume</button>
-                <button className='bg-richblue uppercase rounded-full md:min-w-[188px] text-base md:text-xl font-medium text-secondary-50 px-8 py-2 md:px-5 border-[3px] border-richblue'>Let's Talk</button>
+                <a href='#contact-me' className='bg-richblue uppercase rounded-full md:min-w-[188px] text-center text-base md:text-xl font-medium text-secondary-50 px-8 py-2 md:px-5 border-[3px] border-richblue'>Let's Talk</a>
             </div>
         </div>
       

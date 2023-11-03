@@ -4,28 +4,43 @@ import nodejs from '../assets/nodejs.png'
 import express from '../assets/expressjs.png'
 import mongodb from '../assets/mongodb.png'
 import HighlightText from './HighlightText'
+import {motion} from 'framer-motion';
 
 const SkillSection = () => {
+
+    const cardVariants ={
+        offscreen: {
+          y: 100
+        },
+        onscreen: {
+          y: 0,
+          transition: {
+            type: "spring",
+            bounce: 0.4,
+            duration: 0.8
+          }
+        }
+      };
   return (
     <div className='min-w-full w-full h-fit sm:h-96 bg-primary pt-8'>
         <div className='max-w-maxContent h-full bgVector w-full flex flex-col justify-center items-center mx-auto p-6'>
             <div className='flex flex-col gap-5 w-full'>
-                <h1 className='block sm:hidden font-robo text-2xl font-semibold text-secondary-50'>Skills</h1>
-                <div className='w-full h-full flex flex-col gap-6 sm:flex-row sm:flex-wrap items-center justify-between'>
-                    <div className='border-secondary-50 rounded-lg min-w-[230px] sm:min-w-[200px] min-h-[100px] flex justify-center items-center px-4 py-2 sm:w-fit h-fit bg-richgray-700 border-[3px] '>
+                <motion.h1 initial={{opacity: 0, translateX:-200}} whileInView={{opacity: 1, translateX: 0}} transition={{duration: 1}} className='block sm:hidden font-robo text-2xl font-semibold text-secondary-50'>Skills</motion.h1>
+                <motion.div  viewport={{ once: true}}  className='w-full h-full flex flex-col gap-6 sm:flex-row sm:flex-wrap items-center justify-between'>
+                    <motion.div initial="offscreen" whileInView="onscreen" variants={cardVariants}  className='border-secondary-50 rounded-lg min-w-[230px] sm:min-w-[200px] min-h-[100px] flex justify-center items-center px-4 py-2 sm:w-fit h-fit bg-richgray-700 border-[3px] '>
                         <img src={react} alt='react-icon' />
-                    </div>
-                    <div className='border-secondary-50 rounded-lg min-w-[230px] sm:min-w-[200px] min-h-[100px] flex justify-center items-center px-4 py-2 sm:w-fit h-fit bg-richgray-700 border-[3px] '>
+                    </motion.div>
+                    <motion.div initial="offscreen" whileInView="onscreen" variants={cardVariants} className='border-secondary-50 rounded-lg min-w-[230px] sm:min-w-[200px] min-h-[100px] flex justify-center items-center px-4 py-2 sm:w-fit h-fit bg-richgray-700 border-[3px] '>
                         <img src={nodejs} alt='nodejs-icon' />
-                    </div>
-                    <div className='border-secondary-50 rounded-lg min-w-[230px] sm:min-w-[200px] min-h-[100px] flex justify-center items-center px-4 py-2 sm:w-fit h-fit bg-richgray-700 border-[3px] ' >
+                    </motion.div>
+                    <motion.div initial="offscreen" whileInView="onscreen" variants={cardVariants} className='border-secondary-50 rounded-lg min-w-[230px] sm:min-w-[200px] min-h-[100px] flex justify-center items-center px-4 py-2 sm:w-fit h-fit bg-richgray-700 border-[3px] ' >
                         <img src={express} alt='express-icon' />
-                    </div>
-                    <div className='border-secondary-50 rounded-lg min-w-[230px] sm:min-w-[200px] min-h-[100px] flex justify-center items-center px-4 py-2 sm:w-fit h-fit bg-richgray-700 border-[3px] '>
+                    </motion.div>
+                    <motion.div initial="offscreen" whileInView="onscreen" variants={cardVariants} className='border-secondary-50 rounded-lg min-w-[230px] sm:min-w-[200px] min-h-[100px] flex justify-center items-center px-4 py-2 sm:w-fit h-fit bg-richgray-700 border-[3px] '>
                         <img src={mongodb} alt='mongodb-icon' />
-                    </div>
+                    </motion.div>
 
-                </div>
+                </motion.div>
                 <div className='w-full h-fit hidden sm:flex sm:flex-row sm:flex-wrap justify-between items-center'>
                     <div className='min-w-[200px] px-4 py-2 h-fit text-center bg-richgray-700 font-semibold text-2xl border-secondary-50 border-[3px] rounded-lg text-secondary-50'>
                         <h1><HighlightText text={"#"} />Web</h1>

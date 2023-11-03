@@ -7,7 +7,7 @@ import email from '../assets/Email.png'
 
 const ContactSection = () => {
   return (
-    <div className='w-full h-full pt-10 bg-primary'>
+    <div className='w-full h-full pt-10 bg-primary' id="contact-me">
         <div className='w-full h-full bgGrid rotate-180 flex justify-center items-center p-6'>
             <div className='rotate-180 flex flex-col gap-5 justify-center items-center'>
                 <h1 className='font-robo text-3xl sm:text-4xl md:text-5xl font-semibold max-w-[520px] text-center text-secondary-50'>Let’s Build a Brand that makes an <HighlightText text={"Impact"} /> !</h1>
