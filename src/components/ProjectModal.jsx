@@ -34,7 +34,7 @@ const ProjectModal = ({
                     ))
                   }
                 </div>
-                <div className='h-fit flex justify-between md:justify-normal md:gap-3'>
+                <div className='h-fit flex justify-normal gap-3 md:gap-3'>
                   <a 
                     href={link} 
                     target='_blank' 
