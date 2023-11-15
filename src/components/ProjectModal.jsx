@@ -46,7 +46,7 @@ const ProjectModal = ({
                     target='_blank' 
                     rel='noreferrer' 
                     className='px-5 py-2 border-[1px] border-richblue text-xs md:text-base text-secondary-50 bg-richblue font-semibold rounded-full w-fit'
-                  >View Github</a>
+                  >View Code</a>
                 </div>
               </div>
               
