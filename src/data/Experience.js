@@ -4,7 +4,7 @@ export const experience = [
         designation: "Intern",
         location: "Remote",
         duration: "Jul - 2023 - Aug - 2023",
-        description: "Worked on a project to develop a web application for a client using ReactJS, NodeJS, ExpressJS, MongoDB, and AWS."
+        description: `I immersed in Linux systems, mastering command line intricacies. Applied diverse data structures and gained hands-on experience with Database Management Systems.`
     },
     {
         company: "Oriental Institute of Science and Technology",
