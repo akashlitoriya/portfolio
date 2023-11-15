@@ -11,7 +11,7 @@ const ContactSection = () => {
         <div className='w-full h-full bgGrid rotate-180 flex justify-center items-center p-6'>
             <div className='rotate-180 flex flex-col gap-5 justify-center items-center'>
                 <h1 className='font-robo text-3xl sm:text-4xl md:text-5xl font-semibold max-w-[520px] text-center text-secondary-50'>Let’s Build a Brand that makes an <HighlightText text={"Impact"} /> !</h1>
-                <button className='px-8 py-3 bg-richblue text-secondary-50 font-semibold uppercase rounded-full max-w-[280px] w-full'>Contact Me</button>
+                <button className='px-8 py-3 bg-richblue text-secondary-50 font-semibold uppercase rounded-full max-w-[280px] w-full hover:bg-transparent hover:text-richblue transition-all duration-200 border-[3px] border-richblue'>Contact Me</button>
                 <div className='flex justify-evenly md:justify-between items-center w-full'>
                     <a href='https://www.linkedin.com/in/akashlitoriya/' target='_blank' rel='noreferrer'>
                         <img src={linkedIn} alt='LinkedIn' className='w-8 md:w-fit'/>
